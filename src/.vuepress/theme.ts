@@ -6,13 +6,13 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
+    name: "一日长安",
     url: "https://mister-hope.com",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.svg",
 
   repo: "onlyWorld/ve-home-hope",
 
@@ -40,6 +40,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    // 增加配置，TODO
+    blog: true,
+
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
@@ -95,9 +98,10 @@ export default hopeTheme({
       },
 
       // install reveal.js before enabling it
-      // revealJs: {
-      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-      // },
+     // 幻灯片功能开启，需要安装 pnpm add -D reveal.js revealJs
+     revealJs: {
+      plugins: ["highlight", "math", "search", "notes", "zoom"],
+    },
 
       stylize: [
         {

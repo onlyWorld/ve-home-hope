@@ -1,6 +1,8 @@
-<template><div><p>这是项目主页的案例。你可以在这里放置你的主体内容。</p>
-<p>想要使用此布局，你需要在页面 front matter 中设置 <code v-pre>home: true</code>。</p>
-<p>配置项的相关说明详见 <a href="https://theme-hope.vuejs.press/zh/guide/layout/home/" target="_blank" rel="noopener noreferrer">项目主页配置<ExternalLinkIcon/></a>。</p>
+<template><div><!-- 这是一个博客主页的案例。
+
+要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
+
+相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。 -->
 </div></template>
 
 
