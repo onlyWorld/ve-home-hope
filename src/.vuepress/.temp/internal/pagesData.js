@@ -15,14 +15,14 @@ export const pagesData = {
   "v-1473bf53": () => import(/* webpackChunkName: "v-1473bf53" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/demo/index.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
-  // path: /guide/bar/baz.html
-  "v-177e1f06": () => import(/* webpackChunkName: "v-177e1f06" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/guide/bar/baz.html.js").then(({ data }) => data),
-  // path: /guide/bar/
-  "v-5d5c2d30": () => import(/* webpackChunkName: "v-5d5c2d30" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/guide/bar/index.html.js").then(({ data }) => data),
   // path: /guide/foo/ray.html
   "v-0b6fc5f8": () => import(/* webpackChunkName: "v-0b6fc5f8" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/guide/foo/ray.html.js").then(({ data }) => data),
   // path: /guide/foo/
   "v-5d5821d6": () => import(/* webpackChunkName: "v-5d5821d6" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/guide/foo/index.html.js").then(({ data }) => data),
+  // path: /guide/bar/baz.html
+  "v-177e1f06": () => import(/* webpackChunkName: "v-177e1f06" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/guide/bar/baz.html.js").then(({ data }) => data),
+  // path: /guide/bar/
+  "v-5d5c2d30": () => import(/* webpackChunkName: "v-5d5c2d30" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/guide/bar/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/home/github/ve-home-hope/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/
